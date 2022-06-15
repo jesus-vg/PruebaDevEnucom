@@ -1,7 +1,7 @@
 package pruebadevenucom.atletismo;
 
 /*
- * Construir un programa para una competencia de atletismo, le programa debe gestionar una serie de atletas
+ * Construir un programa para una competencia de atletismo, el programa debe gestionar una serie de atletas
  * caracterizados por número de atleta, nombre y tiempo de carrera, al final el programa debe mostrar los
  * datos del atleta ganador de la carrera.
  */
@@ -29,10 +29,10 @@ public class Atleta {
 	@Override
 	public String toString() {
 		return String.format(
-				"Atleta{ numeroAtleta = %d, nombre = '%s', tiempoCarrera = %s }",
-				numeroAtleta,
-				nombre,
-				tiempoCarrera
+			"Atleta{ numeroAtleta = %d, nombre = '%s', tiempoCarrera = %s }",
+			numeroAtleta,
+			nombre,
+			tiempoCarrera
 		);
 	}
 }
